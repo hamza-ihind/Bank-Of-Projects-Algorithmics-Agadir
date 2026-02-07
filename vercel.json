@@ -1,0 +1,9 @@
+{
+  "rewrites": [{ "source": "/", "destination": "/python_assignments.html" }],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+    }
+  ]
+}
