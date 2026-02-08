@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -925,6 +925,200 @@
         color: #66387e;
         font-weight: 600;
       }
+
+      /* Responsive Design */
+      @media (max-width: 1200px) {
+        .sets-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding-top: 70px;
+        }
+
+        .site-header {
+          height: 60px;
+          padding: 0 15px;
+        }
+
+        .header-logo {
+          width: 40px;
+          height: 40px;
+        }
+
+        .header-title {
+          font-size: 18px;
+        }
+
+        .header-subtitle {
+          font-size: 10px;
+        }
+
+        .mode-toggle {
+          padding: 6px 12px;
+          font-size: 12px;
+        }
+
+        .mode-toggle svg {
+          width: 16px;
+          height: 16px;
+        }
+
+        .welcome-page {
+          padding: 20px 15px 40px 15px;
+        }
+
+        .welcome-header h1 {
+          font-size: 28px;
+        }
+
+        .welcome-header p {
+          font-size: 16px;
+        }
+
+        .level-section {
+          padding: 20px;
+          margin-bottom: 25px;
+        }
+
+        .level-header {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 10px;
+        }
+
+        .level-badge {
+          padding: 8px 18px;
+          font-size: 12px;
+        }
+
+        .level-title {
+          font-size: 20px;
+        }
+
+        .sets-grid {
+          grid-template-columns: 1fr;
+          gap: 15px;
+        }
+
+        .set-card {
+          padding: 20px;
+        }
+
+        .set-name {
+          font-size: 18px;
+        }
+
+        .back-btn,
+        .download-btn {
+          top: 75px;
+          padding: 8px 15px;
+          font-size: 14px;
+        }
+
+        .back-btn {
+          left: 10px;
+        }
+
+        .download-btn {
+          right: 10px;
+        }
+
+        .page {
+          width: 100%;
+          min-height: auto;
+          height: auto;
+          max-height: none;
+          margin: 15px auto;
+          padding: 20px 15px;
+          border-radius: 12px;
+        }
+
+        .header {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 10px;
+        }
+
+        .student-info {
+          width: 100%;
+          text-align: left;
+        }
+
+        .title-section h1 {
+          font-size: 16px;
+        }
+
+        .exercise {
+          padding: 12px 14px;
+        }
+
+        .exercise-title {
+          font-size: 16px;
+        }
+
+        .problem-statement {
+          font-size: 13px;
+          padding: 8px 10px;
+        }
+
+        .task-item {
+          font-size: 13px;
+        }
+
+        .example-output {
+          font-size: 11px;
+          padding: 10px 12px;
+          padding-top: 20px;
+        }
+
+        .site-footer {
+          flex-direction: column;
+          height: auto;
+          padding: 15px;
+          gap: 10px;
+        }
+
+        .footer-divider {
+          display: none;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .welcome-header h1 {
+          font-size: 24px;
+        }
+
+        .set-card {
+          padding: 16px;
+        }
+
+        .set-number {
+          font-size: 12px;
+          padding: 4px 10px;
+        }
+
+        .set-name {
+          font-size: 16px;
+        }
+
+        .set-topics {
+          font-size: 11px;
+        }
+
+        .exercise-number {
+          width: 28px;
+          height: 28px;
+          font-size: 14px;
+        }
+
+        .inline-code {
+          font-size: 11px;
+          padding: 1px 4px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -1048,7 +1242,7 @@
 
         <div class="sets-grid">
           <div class="set-card" onclick="showSet('set6')">
-            <div class="set-number">SET 6</div>
+            <div class="set-number">SET 1</div>
             <div class="set-name">Datatypes</div>
             <div class="set-topics">
               <strong>Topics:</strong> Introduction to Python, Variables,
@@ -1057,7 +1251,7 @@
           </div>
 
           <div class="set-card" onclick="showSet('set7')">
-            <div class="set-number">SET 7</div>
+            <div class="set-number">SET 2</div>
             <div class="set-name">Algorithms</div>
             <div class="set-topics">
               <strong>Topics:</strong> Conditional Operators, For Loops, While
@@ -1066,7 +1260,7 @@
           </div>
 
           <div class="set-card" onclick="showSet('set8')">
-            <div class="set-number">SET 8</div>
+            <div class="set-number">SET 3</div>
             <div class="set-name">Methods of Code Organization</div>
             <div class="set-topics">
               <strong>Topics:</strong> Functions, Modules
@@ -1074,7 +1268,7 @@
           </div>
 
           <div class="set-card" onclick="showSet('set9')">
-            <div class="set-number">SET 9</div>
+            <div class="set-number">SET 4</div>
             <div class="set-name">Data Structures</div>
             <div class="set-topics">
               <strong>Topics:</strong> Lists/Tuples, Dicts/Sets, Nested Data
@@ -1083,7 +1277,7 @@
           </div>
 
           <div class="set-card" onclick="showSet('set10')">
-            <div class="set-number">SET 10</div>
+            <div class="set-number">SET 5</div>
             <div class="set-name">Object Oriented Programming</div>
             <div class="set-topics">
               <strong>Topics:</strong> Classes, Objects, Encapsulation,
@@ -1101,7 +1295,7 @@
 
         <div class="sets-grid">
           <div class="set-card" onclick="showSet('set11')">
-            <div class="set-number">SET 11</div>
+            <div class="set-number">SET 1</div>
             <div class="set-name">Mobile Development</div>
             <div class="set-topics">
               <strong>Topics:</strong> Introduction, MVP Mobile App Development,
@@ -1110,7 +1304,7 @@
           </div>
 
           <div class="set-card" onclick="showSet('set12')">
-            <div class="set-number">SET 12</div>
+            <div class="set-number">SET 2</div>
             <div class="set-name">Data Analysis</div>
             <div class="set-topics">
               <strong>Topics:</strong> Basics of Working, Grouping Data, Data
@@ -1119,7 +1313,7 @@
           </div>
 
           <div class="set-card" onclick="showSet('set13')">
-            <div class="set-number">SET 13</div>
+            <div class="set-number">SET 3</div>
             <div class="set-name">Basics of Machine Learning</div>
             <div class="set-topics">
               <strong>Topics:</strong> Machine Learning Algorithms, Training
@@ -1129,41 +1323,6 @@
         </div>
       </div>
 
-      <!-- FRONT-END Development -->
-      <div class="level-section">
-        <div class="level-header">
-          <div class="level-badge">FRONT-END Development</div>
-        </div>
-
-        <div class="sets-grid">
-          <div class="set-card" onclick="showSet('set14')">
-            <div class="set-number">SET 14</div>
-            <div class="set-name">Basics of HTML</div>
-            <div class="set-topics">
-              <strong>Topics:</strong> HTML Basics, Working with Text and
-              Images, Working with Tables
-            </div>
-          </div>
-
-          <div class="set-card" onclick="showSet('set15')">
-            <div class="set-number">SET 15</div>
-            <div class="set-name">CSS Basics</div>
-            <div class="set-topics">
-              <strong>Topics:</strong> Selectors and Classes, Containers, Layout
-              Design
-            </div>
-          </div>
-
-          <div class="set-card" onclick="showSet('set16')">
-            <div class="set-number">SET 16</div>
-            <div class="set-name">JavaScript</div>
-            <div class="set-topics">
-              <strong>Topics:</strong> Introduction, Functions and Events,
-              Control Structures, OOP, Asynchronous JavaScript
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     <!-- ==================== SET 1: Python Basics ==================== -->
