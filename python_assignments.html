@@ -1322,7 +1322,6 @@
           </div>
         </div>
       </div>
-
     </div>
 
     <!-- ==================== SET 1: Python Basics ==================== -->
@@ -2016,44 +2015,98 @@
                 <li class="task-item">
                   <div class="checkbox"></div>
                   <div class="task-text">
-                    Import <span class="inline-code">random</span> and
-                    <span class="inline-code">time</span> modules
+                    Import the <span class="inline-code">random</span> module
+                    (used to generate random numbers and pick random operators)
                   </div>
                 </li>
                 <li class="task-item">
                   <div class="checkbox"></div>
                   <div class="task-text">
-                    Create function
+                    Import the <span class="inline-code">time</span> module
+                    (used to measure how long the player takes to finish the
+                    quiz)
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create a function
                     <span class="inline-code">generate_question()</span> that
-                    randomly picks +, -, or * and two random numbers (1-20),
-                    returns (num1, num2, operator, correct_answer)
+                    randomly picks an operator from
+                    <span class="inline-code">+</span>,
+                    <span class="inline-code">-</span>, or
+                    <span class="inline-code">*</span>
                   </div>
                 </li>
                 <li class="task-item">
                   <div class="checkbox"></div>
                   <div class="task-text">
-                    Create function
+                    Inside <span class="inline-code">generate_question()</span>,
+                    generate two random numbers between 1 and 20
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Inside <span class="inline-code">generate_question()</span>,
+                    calculate the correct answer based on the chosen operator
+                    and return a tuple:
+                    <span class="inline-code"
+                      >(num1, num2, operator, correct_answer)</span
+                    >
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create a function
                     <span class="inline-code"
                       >check_answer(user_ans, correct_ans)</span
                     >
-                    that returns True/False
+                    that compares the user's answer with the correct answer and
+                    returns <span class="inline-code">True</span> or
+                    <span class="inline-code">False</span>
                   </div>
                 </li>
                 <li class="task-item">
                   <div class="checkbox"></div>
                   <div class="task-text">
-                    Create function
+                    Create a function
                     <span class="inline-code">play_quiz(num_questions)</span>
-                    that runs the quiz, uses
-                    <span class="inline-code">time.time()</span> to measure
-                    total time
+                    that loops through the given number of questions
                   </div>
                 </li>
                 <li class="task-item">
                   <div class="checkbox"></div>
                   <div class="task-text">
-                    Ask how many questions (3-10), run the quiz, display score
-                    and time taken
+                    Inside <span class="inline-code">play_quiz()</span>, use
+                    <span class="inline-code">time.time()</span> at the start
+                    and end of the quiz to measure the total time taken
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Inside <span class="inline-code">play_quiz()</span>, for
+                    each question, call
+                    <span class="inline-code">generate_question()</span>,
+                    display it, get the user's answer, and use
+                    <span class="inline-code">check_answer()</span> to give
+                    feedback
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Ask the user how many questions they want (between 3 and 10)
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Run the quiz and display the final score (e.g.
+                    <span class="inline-code">2/3 (66%)</span>) and the total
+                    time taken in seconds
                   </div>
                 </li>
               </ul>
@@ -2118,36 +2171,85 @@
                 <li class="task-item">
                   <div class="checkbox"></div>
                   <div class="task-text">
-                    Create function
+                    Import the <span class="inline-code">random</span> module
+                    (used to simulate dice rolls) and the
+                    <span class="inline-code">time</span> module (used to add
+                    dramatic pauses)
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create a function
                     <span class="inline-code">roll_dice()</span> that returns a
-                    random number 1-6
+                    random number between 1 and 6
                   </div>
                 </li>
                 <li class="task-item">
                   <div class="checkbox"></div>
                   <div class="task-text">
-                    Create function
+                    Create a function
                     <span class="inline-code">battle_round(player_name)</span>
-                    that rolls for player and computer, uses
-                    <span class="inline-code">time.sleep(0.5)</span> for
-                    suspense, returns winner ("player", "computer", or "tie")
+                    that rolls the dice once for the player and once for the
+                    computer
                   </div>
                 </li>
                 <li class="task-item">
                   <div class="checkbox"></div>
                   <div class="task-text">
-                    Create function
+                    Inside <span class="inline-code">battle_round()</span>, use
+                    <span class="inline-code">time.sleep(0.5)</span> before
+                    revealing the results to create suspense
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Inside <span class="inline-code">battle_round()</span>,
+                    compare both rolls and return the winner as
+                    <span class="inline-code">"player"</span>,
+                    <span class="inline-code">"computer"</span>, or
+                    <span class="inline-code">"tie"</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create a function
                     <span class="inline-code"
                       >determine_champion(p_wins, c_wins)</span
                     >
-                    that returns final result message
+                    that takes each player's total wins and returns a final
+                    result message
                   </div>
                 </li>
                 <li class="task-item">
                   <div class="checkbox"></div>
                   <div class="task-text">
-                    Main game: play best of 5 rounds, track scores, display
-                    final winner with stats
+                    Ask the user for their name before starting the game
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    In the main game, play a best-of-5 match by looping through
+                    up to 5 rounds and calling
+                    <span class="inline-code">battle_round()</span> each time
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Track the number of wins for the player and the computer
+                    after each round
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    At the end, display the final score and use
+                    <span class="inline-code">determine_champion()</span> to
+                    announce the winner
                   </div>
                 </li>
               </ul>
