@@ -1234,6 +1234,24 @@
         </div>
       </div>
 
+      <!-- Python Junior 2 Level -->
+      <div class="level-section">
+        <div class="level-header">
+          <div class="level-badge">Python Junior 2</div>
+        </div>
+
+        <div class="sets-grid">
+          <div class="set-card" onclick="showSet('set17')">
+            <div class="set-number">SET 1</div>
+            <div class="set-name">Image Manipulation</div>
+            <div class="set-topics">
+              <strong>Topics:</strong> Pillow Library, Requests Module, Image
+              Processing, File Handling
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Python Senior Level -->
       <div class="level-section">
         <div class="level-header">
@@ -1318,6 +1336,15 @@
             <div class="set-topics">
               <strong>Topics:</strong> Machine Learning Algorithms, Training
               Models
+            </div>
+          </div>
+
+          <div class="set-card" onclick="showSet('set18')">
+            <div class="set-number">SET 4</div>
+            <div class="set-name">Basics of Pygame</div>
+            <div class="set-topics">
+              <strong>Topics:</strong> Pygame Setup, Drawing Shapes, Game Loop,
+              Keyboard Events, Collision Detection
             </div>
           </div>
         </div>
@@ -6333,6 +6360,800 @@
                 &nbsp;&nbsp;}<br />
                 }
               </div>
+            </div>
+          </div>
+          <div class="page-number">Page 3 of 3</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== SET 17: Image Manipulation (Junior 2) ==================== -->
+    <div class="assignment-page" id="set17">
+      <button class="back-btn" onclick="goBack()">Back to Sets</button>
+      <button
+        class="download-btn"
+        onclick="downloadPDF('set17', 'Set17_Image_Manipulation_Junior2')"
+      >
+        Download PDF
+      </button>
+
+      <div class="pdf-content" id="set17-content">
+        <!-- Exercise 1 -->
+        <div class="page">
+          <div class="header">
+            <div class="logo-section">
+              <img src="logo.png" alt="Logo" class="logo" />
+              <div class="title-section">
+                <h1>Image Manipulation</h1>
+                <p class="subtitle">Python Junior 2</p>
+              </div>
+            </div>
+            <div class="student-info">
+              <p>Name: <span></span></p>
+              <p>Date: <span></span></p>
+            </div>
+          </div>
+
+          <div class="exercise">
+            <div class="exercise-header">
+              <div class="exercise-number">1</div>
+              <h2 class="exercise-title">Image Manipulation</h2>
+            </div>
+
+            <div class="problem-statement">
+              Download a photo from the internet and use Python to make simple
+              changes to it, like making it smaller or turning it sideways. You
+              will learn how to work with images using the PIL library!
+            </div>
+
+            <div class="tasks">
+              <h3 class="tasks-header">Your Tasks</h3>
+              <ul class="task-list">
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Install <span class="inline-code">Pillow</span> using
+                    <span class="inline-code">pip install pillow</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Install <span class="inline-code">requests</span> using
+                    <span class="inline-code">pip install requests</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Use the <span class="inline-code">requests</span> module to
+                    download an image from the internet
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Open the downloaded image using PIL's
+                    <span class="inline-code">Image.open()</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Print the image size (width and height) to the console
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Make the image smaller using
+                    <span class="inline-code">.resize()</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Save the resized image as
+                    <span class="inline-code">small_image.jpg</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Turn the image 90 degrees using
+                    <span class="inline-code">.rotate()</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Save the rotated image as
+                    <span class="inline-code">rotated_image.jpg</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Change the image to black and white using
+                    <span class="inline-code">.convert('L')</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Save the grayscale image as
+                    <span class="inline-code">grayscale_image.jpg</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Cut out a rectangle from the middle of the image using
+                    <span class="inline-code">.crop()</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Save the cropped image as
+                    <span class="inline-code">cropped_image.jpg</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="page-number">Page 1 of 3</div>
+        </div>
+
+        <!-- Exercise 2 -->
+        <div class="page">
+          <div class="header">
+            <div class="logo-section">
+              <img src="logo.png" alt="Logo" class="logo" />
+              <div class="title-section">
+                <h1>Image Manipulation</h1>
+                <p class="subtitle">Python Junior 2</p>
+              </div>
+            </div>
+            <div class="student-info">
+              <p>Name: <span></span></p>
+              <p>Date: <span></span></p>
+            </div>
+          </div>
+
+          <div class="exercise">
+            <div class="exercise-header">
+              <div class="exercise-number">2</div>
+              <h2 class="exercise-title">Photo Filter Creator</h2>
+            </div>
+
+            <div class="problem-statement">
+              Build a simple photo filter tool using Python! Load an image and
+              apply different filters and enhancements to it, like blurring,
+              sharpening, and adjusting brightness. You will learn how to use
+              PIL's built-in filters and the ImageEnhance module.
+            </div>
+
+            <div class="tasks">
+              <h3 class="tasks-header">Your Tasks</h3>
+              <ul class="task-list">
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Import <span class="inline-code">Image</span>,
+                    <span class="inline-code">ImageFilter</span>, and
+                    <span class="inline-code">ImageEnhance</span> from PIL
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Open an image file using
+                    <span class="inline-code">Image.open()</span> and store it
+                    in a variable
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Apply a blur filter using
+                    <span class="inline-code">.filter(ImageFilter.BLUR)</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Save the blurred image as
+                    <span class="inline-code">blurred_image.jpg</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Apply a sharpen filter using
+                    <span class="inline-code"
+                      >.filter(ImageFilter.SHARPEN)</span
+                    >
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Save the sharpened image as
+                    <span class="inline-code">sharpened_image.jpg</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Apply an edge detection filter using
+                    <span class="inline-code"
+                      >.filter(ImageFilter.FIND_EDGES)</span
+                    >
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Save the edge-detected image as
+                    <span class="inline-code">edges_image.jpg</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Use
+                    <span class="inline-code">ImageEnhance.Brightness()</span>
+                    to increase the image brightness by a factor of 1.5
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Save the brightened image as
+                    <span class="inline-code">bright_image.jpg</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Use <span class="inline-code">ImageEnhance.Contrast()</span>
+                    to increase the image contrast by a factor of 2.0
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Save the high-contrast image as
+                    <span class="inline-code">contrast_image.jpg</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="page-number">Page 2 of 3</div>
+        </div>
+
+        <!-- Exercise 3 -->
+        <div class="page">
+          <div class="header">
+            <div class="logo-section">
+              <img src="logo.png" alt="Logo" class="logo" />
+              <div class="title-section">
+                <h1>Image Manipulation</h1>
+                <p class="subtitle">Python Junior 2</p>
+              </div>
+            </div>
+            <div class="student-info">
+              <p>Name: <span></span></p>
+              <p>Date: <span></span></p>
+            </div>
+          </div>
+
+          <div class="exercise">
+            <div class="exercise-header">
+              <div class="exercise-number">3</div>
+              <h2 class="exercise-title">Image Collage Maker</h2>
+            </div>
+
+            <div class="problem-statement">
+              Create a Python program that combines multiple images into a
+              single collage! You will download several photos, resize them to
+              the same dimensions, and arrange them side by side on a new blank
+              canvas using PIL's paste and drawing tools.
+            </div>
+
+            <div class="tasks">
+              <h3 class="tasks-header">Your Tasks</h3>
+              <ul class="task-list">
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Import <span class="inline-code">Image</span> and
+                    <span class="inline-code">ImageDraw</span> from PIL, and
+                    import <span class="inline-code">requests</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Download at least 4 different images from the internet using
+                    <span class="inline-code">requests.get()</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Open each downloaded image using
+                    <span class="inline-code">Image.open()</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Resize all images to the same size (e.g. 300×300) using
+                    <span class="inline-code">.resize()</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create a new blank canvas using
+                    <span class="inline-code"
+                      >Image.new('RGB', (width, height), 'white')</span
+                    >
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Calculate the correct position (x, y) for each image so they
+                    are arranged in a 2×2 grid
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Paste each resized image onto the canvas using
+                    <span class="inline-code">.paste()</span> at the calculated
+                    positions
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Use <span class="inline-code">ImageDraw.Draw()</span> to
+                    create a drawing object on the canvas
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Draw border lines between the images using
+                    <span class="inline-code">.line()</span> to separate them
+                    visually
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Save the final collage as
+                    <span class="inline-code">collage.jpg</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Display the collage using
+                    <span class="inline-code">.show()</span> to preview your
+                    work
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="page-number">Page 3 of 3</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== SET 18: Basics of Pygame (Senior 2) ==================== -->
+    <div class="assignment-page" id="set18">
+      <button class="back-btn" onclick="goBack()">Back to Sets</button>
+      <button
+        class="download-btn"
+        onclick="downloadPDF('set18', 'Set18_Basics_of_Pygame_Senior2')"
+      >
+        Download PDF
+      </button>
+
+      <div class="pdf-content" id="set18-content">
+        <!-- Exercise 1 -->
+        <div class="page">
+          <div class="header">
+            <div class="logo-section">
+              <img src="logo.png" alt="Logo" class="logo" />
+              <div class="title-section">
+                <h1>Basics of Pygame</h1>
+                <p class="subtitle">Python Senior 2</p>
+              </div>
+            </div>
+            <div class="student-info">
+              <p>Name: <span></span></p>
+              <p>Date: <span></span></p>
+            </div>
+          </div>
+
+          <div class="exercise">
+            <div class="exercise-header">
+              <div class="exercise-number">1</div>
+              <h2 class="exercise-title">Drawing Board</h2>
+            </div>
+
+            <div class="problem-statement">
+              Create a colorful drawing board using Pygame! You will learn how
+              to set up a Pygame window, use the game loop, draw basic shapes on
+              the screen, and handle the quit event properly.
+            </div>
+
+            <div class="tasks">
+              <h3 class="tasks-header">Your Tasks</h3>
+              <ul class="task-list">
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Install Pygame using
+                    <span class="inline-code">pip install pygame</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Import <span class="inline-code">pygame</span> and
+                    initialize it using
+                    <span class="inline-code">pygame.init()</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create a window of size 800×600 using
+                    <span class="inline-code"
+                      >pygame.display.set_mode((800, 600))</span
+                    >
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Set the window title using
+                    <span class="inline-code"
+                      >pygame.display.set_caption()</span
+                    >
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Define color variables as RGB tuples (e.g.
+                    <span class="inline-code">RED = (255, 0, 0)</span>,
+                    <span class="inline-code">BLUE = (0, 0, 255)</span>,
+                    <span class="inline-code">GREEN = (0, 255, 0)</span>)
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Fill the screen background with a color using
+                    <span class="inline-code">screen.fill()</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Draw a rectangle using
+                    <span class="inline-code"
+                      >pygame.draw.rect(screen, color, (x, y, width,
+                      height))</span
+                    >
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Draw a circle using
+                    <span class="inline-code"
+                      >pygame.draw.circle(screen, color, (cx, cy), radius)</span
+                    >
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Draw a line using
+                    <span class="inline-code"
+                      >pygame.draw.line(screen, color, (x1, y1), (x2, y2),
+                      width)</span
+                    >
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create the game loop using
+                    <span class="inline-code">while True</span> with
+                    <span class="inline-code">pygame.event.get()</span>
+                    to listen for events
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Handle the quit event by checking for
+                    <span class="inline-code">pygame.QUIT</span> and calling
+                    <span class="inline-code">pygame.quit()</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Update the display each frame using
+                    <span class="inline-code">pygame.display.update()</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="page-number">Page 1 of 3</div>
+        </div>
+
+        <!-- Exercise 2 -->
+        <div class="page">
+          <div class="header">
+            <div class="logo-section">
+              <img src="logo.png" alt="Logo" class="logo" />
+              <div class="title-section">
+                <h1>Basics of Pygame</h1>
+                <p class="subtitle">Python Senior 2</p>
+              </div>
+            </div>
+            <div class="student-info">
+              <p>Name: <span></span></p>
+              <p>Date: <span></span></p>
+            </div>
+          </div>
+
+          <div class="exercise">
+            <div class="exercise-header">
+              <div class="exercise-number">2</div>
+              <h2 class="exercise-title">Moving Character</h2>
+            </div>
+
+            <div class="problem-statement">
+              Build a simple program where a character (a colored square) moves
+              around the screen using the arrow keys. You will learn how to
+              handle keyboard input, update positions, control frame rate, and
+              keep the character inside the screen boundaries.
+            </div>
+
+            <div class="tasks">
+              <h3 class="tasks-header">Your Tasks</h3>
+              <ul class="task-list">
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Set up Pygame with a window, a title, and a background color
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create variables for the character's position:
+                    <span class="inline-code">x = 400</span> and
+                    <span class="inline-code">y = 300</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create a variable for the character's size (e.g.
+                    <span class="inline-code">size = 50</span>) and speed (e.g.
+                    <span class="inline-code">speed = 5</span>)
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create a clock object using
+                    <span class="inline-code">pygame.time.Clock()</span>
+                    to control the frame rate
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Inside the game loop, use
+                    <span class="inline-code">pygame.key.get_pressed()</span>
+                    to get the state of all keys
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Check if the left arrow key is pressed using
+                    <span class="inline-code">keys[pygame.K_LEFT]</span>
+                    and subtract speed from x
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Check if the right arrow key is pressed using
+                    <span class="inline-code">keys[pygame.K_RIGHT]</span>
+                    and add speed to x
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Do the same for the up arrow (<span class="inline-code"
+                      >pygame.K_UP</span
+                    >) and down arrow (<span class="inline-code"
+                      >pygame.K_DOWN</span
+                    >) to change y
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Add boundary checks so the character cannot move outside the
+                    window (x and y stay between 0 and window width/height minus
+                    size)
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Clear the screen each frame with
+                    <span class="inline-code">screen.fill()</span>, then draw
+                    the character at the new position
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Limit the frame rate to 60 FPS using
+                    <span class="inline-code">clock.tick(60)</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="page-number">Page 2 of 3</div>
+        </div>
+
+        <!-- Exercise 3 -->
+        <div class="page">
+          <div class="header">
+            <div class="logo-section">
+              <img src="logo.png" alt="Logo" class="logo" />
+              <div class="title-section">
+                <h1>Basics of Pygame</h1>
+                <p class="subtitle">Python Senior 2</p>
+              </div>
+            </div>
+            <div class="student-info">
+              <p>Name: <span></span></p>
+              <p>Date: <span></span></p>
+            </div>
+          </div>
+
+          <div class="exercise">
+            <div class="exercise-header">
+              <div class="exercise-number">3</div>
+              <h2 class="exercise-title">Catch the Falling Objects</h2>
+            </div>
+
+            <div class="problem-statement">
+              Create a mini-game where objects fall from the top of the screen
+              and the player must move a basket (rectangle) left and right to
+              catch them. You will learn how to handle collision detection, keep
+              a score, and display text on the screen using Pygame.
+            </div>
+
+            <div class="tasks">
+              <h3 class="tasks-header">Your Tasks</h3>
+              <ul class="task-list">
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Set up Pygame with an 800×600 window and a title like "Catch
+                    the Objects!"
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create a basket (rectangle) at the bottom of the screen with
+                    variables for its x position, width, and height
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Use the left and right arrow keys to move the basket
+                    horizontally, keeping it inside the screen
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create a falling object with a random x position using
+                    <span class="inline-code">random.randint()</span>
+                    and a y position starting at 0
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Each frame, increase the object's y position by a fall speed
+                    value to make it move downward
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    When the object goes past the bottom of the screen, reset
+                    its y to 0 and give it a new random x position
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Detect collision: check if the falling object's position
+                    overlaps with the basket's position (compare x, y, width,
+                    and height)
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create a <span class="inline-code">score</span> variable
+                    starting at 0, and increase it by 1 every time the player
+                    catches an object
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Create a font object using
+                    <span class="inline-code">pygame.font.Font(None, 36)</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Render the score text using
+                    <span class="inline-code">font.render()</span> and display
+                    it on the screen with
+                    <span class="inline-code">screen.blit()</span>
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Gradually increase the fall speed as the score goes up to
+                    make the game harder over time
+                  </div>
+                </li>
+                <li class="task-item">
+                  <div class="checkbox"></div>
+                  <div class="task-text">
+                    Add a "Game Over" condition: if the player misses 3 objects,
+                    stop the game and display the final score
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="page-number">Page 3 of 3</div>
